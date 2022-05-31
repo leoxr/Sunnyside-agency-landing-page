@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+:root {
+
+    --font-Barlow: 'Barlow';
+    --font-Fraunces: 'Fraunces';
+}
+
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+html {
+    height: 100%;
+    /* background: url(images/mobile-menu.jpg) no-repeat top; */
+    /* background: url(images/mobile-design.jpg) no-repeat top; */
+    /* background: url(images/desktop-design.jpg) no-repeat top; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* **************** font ************** */
+
+a, li, p {
+    font-family: var(--font-Barlow);
+}
+
+button, h1, h2, h3 {
+    font-family: var(--font-Fraunces);
+    
+}
+
+button, h1 {
+    text-transform: uppercase;
+}
